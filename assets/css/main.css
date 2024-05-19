@@ -14,7 +14,7 @@ menu {
 margin-right: auto; margin-top: 80px; padding: 0;
 }
 
-nav ul{padding: 0; margin: 0; }
+nav ul{padding: 0; margin: 0;}
 
 menu nav li{list-style: none; float: left; padding: 0 11px 0 0; margin-right: auto;} 
 menu nav a{color: #fff; font-size: 17px; text-decoration: none;} 
@@ -25,10 +25,14 @@ menu nav a:hover{color: #c6e5ff; border-bottom: 1px solid #c6e5ff;}
 } 
 
 #tags {
-  border: 1px solid #ededee; padding: 7px; margin: 7px 0; color: #333333; display: flex; align-items: center;
+  border-top: 1px solid #ededee; padding: 0 4px; color: #333333; display: flex; align-items: center;
 }
 
-#tags ul li{list-style: none; padding: 0 10px; margin: 0; float: left;}
+#tags ul{margin: 7px; padding: 0 3px;}
+
+#tags ul li{list-style: none; padding: 0 5px; margin: 0; float: left;}
+
+#tags a{color: #335886;} #tags a:hover{color: #3373c2;}
 
 table{font-size: 15px; margin: 2px 0; text-align: left; 
     color: #555555; border: 1px solid #c4c4c4; border-collapse: collapse;}
