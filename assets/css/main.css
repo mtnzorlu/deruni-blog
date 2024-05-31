@@ -4,20 +4,19 @@ body {
   background-color: #719fc5; color: #ffffff; font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Verdana, sans-serif;
 }
 
-
 header {
   width: 985px; display: flex; align-items: center; justify-content: space-evenly; 
   flex-wrap: wrap; padding: 0; margin: 1px 0;
 }
 
 menu {
-margin-right: auto; margin-top: 80px; padding: 0;
+margin-right: auto; margin-top: 80px; padding: 0; font-size: 17px;
 }
 
 nav ul{padding: 0; margin: 0;}
 
 menu nav li{list-style: none; float: left; padding: 0 11px 0 0; margin-right: auto;} 
-menu nav a{color: #fff; font-size: 17px; text-decoration: none;} 
+menu nav a{color: #fff; text-decoration: none;} 
 menu nav a:hover{color: #c6e5ff; border-bottom: 1px solid #c6e5ff;}
 
 #logo {
@@ -43,21 +42,16 @@ table{font-size: 15px; margin: 2px 0; text-align: left;
     tr:nth-child(even) {background-color: #e4e4e4;}
 
 pre{padding: 17px 21px; font-size: 14px; white-space: pre-wrap; background-color: #3b3b3b; border-radius: 9px; overflow: auto;} 
+
 blockquote{margin: 0; padding: 2px 13px; background-color: #f0f0f0; border-left: 3px solid #d5d5d5; color: #707070;}
 
 footer {
   margin-top: 1rem; color: #c0dafa;
 }
 
-a {
-  color: #335886;
-  text-decoration: none;
-}
-
 main {
   width: 1070px; display: flex; justify-content: center; align-items: center; flex-direction: column;
 }
-
 
 content {
   background-color: #fff; color: #505050; width: 90%; 
@@ -67,10 +61,9 @@ content {
 
 content img {max-width: 760px;}
 
-
 #pagi{text-align: center; display: flex; align-items: center; justify-content: center; margin: 5px 0;}
 #pagi a{background-color: #cdeefc; color: #4f7286; font-size: 15px; padding: 5px 10px; border-radius: 3px;}
-#pagi ul li{margin: 0; padding: 3px; list-style: none; float: left;}
+#pagi li{margin: 0; padding: 3px; list-style: none; float: left;} #pagi ul{margin: 0; padding: 0;}
 
 time {
   font-size: 11px; color: #a3a3a3;
@@ -86,4 +79,30 @@ h5{font-size: 18px; font-weight: normal; color: #595959;}
 h6{font-size: 18px; font-weight: normal; color: #454545;}
 p {line-height: 23px; font-size: 16px;} 
 hr{border: 1px solid #eeeeee;}
-a:link{color: #335886;} a:hover{color: #2c66b3;} a:active{color: #000;}
+a{color: #335886; text-decoration: none;} a:hover{color: #2c66b3;} a:active{color: #000;}
+
+@media (max-width: 1070px) {
+
+  main {width: 100%;}
+
+  header {
+    width: 90%;
+    justify-content: center;
+  }
+  
+  content {padding: 15px;}
+  
+  content img {width: 95%;}
+  
+  #logo img{width: 344px;}
+}
+
+@media (max-width: 660px) {
+  #logo img{max-width: 244px;} menu {margin-top: 52px;}
+}
+
+@media (max-width: 440px) {
+  #logo img{max-width: 184px;} menu {margin-top: 37px; font-size: 15px;}
+  
+  content {padding: 10px; font-size: 15px;} p {font-size: 15px;} h1 {font-size: 21px;}
+}
