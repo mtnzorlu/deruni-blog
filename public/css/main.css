@@ -63,8 +63,7 @@ content {
 content img {max-width: 760px;}
 
 #pagi{text-align: center; display: flex; align-items: center; justify-content: center; padding-top: 11px; margin: 5px 0;}
-#pagi a{background-color: #ecf7ff; color: #4f7286; font-size: 15px; padding: 5px 10px; border-radius: 3px; border: 1px solid #dee9f5;} 
-#pagi a:hover{background-color: #d9efff;}
+#pagi a{background-color: #cdeefc; color: #4f7286; font-size: 15px; padding: 5px 10px; border-radius: 3px;}
 #pagi li{margin: 0; padding: 3px; list-style: none; float: left;} #pagi ul{margin: 0; padding: 0;}
 
 time {

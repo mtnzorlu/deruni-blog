@@ -4,15 +4,9 @@ title = 'My New Hugo Site'
 paginate = 2
 
 [[menus.main]]
-name = 'Blog'
+name = 'Yazılar'
 pageRef = '/posts'
 weight = 10
-
-[[menus.main]]
-identifier = 'categories'
-name = 'Kategoriler'
-pageRef = '/categories'
-weight = 20
 
 [module]
   [module.hugoVersion]
